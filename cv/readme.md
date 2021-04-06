@@ -3,6 +3,8 @@ layout: default
 permalink: /cv/
 ---
 
+# Curriculum Vitae
+
 ## Thesis
 
 Master thesis: "A memória como condição para o sucesso da cooperação" (link) (Portuguese)
@@ -11,7 +13,7 @@ Master thesis: "A memória como condição para o sucesso da cooperação" (link
 ## Publications
 
 
-**Sousa, D. N.**, Correia, L., & Garcia-Marques, L. (2019). The importance of memory for the success of cooperation under ecological adversity. Adaptive Behavior. https://doi.org/10.1177/1059712319872518
+**Sousa, D. N.**, Correia, L., & Garcia-Marques, L. (2019). The importance of memory for the success of cooperation under ecological adversity. Adaptive Behavior. [&#128279;](https://doi.org/10.1177/1059712319872518)
 
 **Sousa, D. N.**, & Daniel, J. R, (2018). qsort R package: A New Tool for Scoring Q-sort Data. Journal of Open Source Software, 3(32), 911,https://doi.org/10.21105/joss.00911
 

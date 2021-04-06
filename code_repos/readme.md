@@ -3,6 +3,7 @@ layout: default
 permalink: /code_repos/
 ---
 
+# Code Repositories
 
 ## [pyBART](https://github.com/davidnsousa/pyBART) &#128279;
 
@@ -68,7 +69,7 @@ MCSD is a simple MATLAB/Octave tool designed to simulate diffusion processes in 
 
 CUEPCA - Cooperation under ecological pressure: Cognitive adaptations. Netlogo applet to investigate the importance of cognitive adaptations that are necessary for the success of cooperation under ecological and social pressure.
 
-This applet was developed in the context of my [master's thesis](http://www.google.com/url?q=http%3A%2F%2Frepositorio.ul.pt%2Fhandle%2F10451%2F32768&sa=D&sntz=1&usg=AFQjCNEx15nNLpyNzbZXtFx1OLJCLskLaw) and published with the article [The importance of memory for the success of cooperation under ecological adversity](https://www.google.com/url?q=https%3A%2F%2Fdoi.org%2F10.1177%2F1059712319872518&sa=D&sntz=1&usg=AFQjCNEUeh1PB9p1bhFG2bQIXR86WJW58Q) .
+This applet was developed in the context of my [master's thesis](https://repositorio.ul.pt/handle/10451/32768) and published with the article [The importance of memory for the success of cooperation under ecological adversity](https://journals.sagepub.com/doi/10.1177/1059712319872518) .
 
 2017
 
