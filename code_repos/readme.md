@@ -4,11 +4,13 @@ permalink: /code_repos/
 ---
 
 
-## [pyBART](https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fdavidnsousa%2FpyBART&sa=D&sntz=1&usg=AFQjCNFBzf_c0_NxEbkMMWdjHbpHeDFTFw) (2019)
+## [pyBART](https://github.com/davidnsousa/pyBART) &#128279;
 
 [![Generic badge](https://img.shields.io/badge/Language-Python-yellow.svg)](https://www.python.org/) [![DOI](https://zenodo.org/badge/227622179.svg)](https://zenodo.org/badge/latestdoi/227622179) 
 
 A python implementation of the BART: a task designed to assess risk-taking behavior.
+
+2019
 
 ## [miniabm](https://www.google.com/url?q=https%3A%2F%2Fpypi.org%2Fproject%2Fminiabm%2F0.0.1%2F&sa=D&sntz=1&usg=AFQjCNEXkO46JDpEhJxT-pXsySh2obWJuw) (2019)
 
@@ -30,13 +32,13 @@ TMTGen is an automatic [Trail Making Test](https://www.google.com/url?q=https%3A
 
 ## [bor](https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fdavidnsousa%2Fbor&sa=D&sntz=1&usg=AFQjCNGE2uTjlTbCtT3e7hkmHT-hoYfgiQ) (2018)
 
-[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/bor)](https://cran.r-project.org/package=bor) [![Rdoc](http://www.rdocumentation.org/badges/version/bor)](http://www.rdocumentation.org/packages/bor) [![Build Status](https://travis-ci.org/davidnsousa/bor.svg?branch=master)](https://travis-ci.org/davidnsousa/bor) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1317543.svg)](https://doi.org/10.5281/zenodo.1317543) [![status](http://joss.theoj.org/papers/03ad4d832eb94173552f31d8a25dceb4/status.svg)](http://joss.theoj.org/papers/03ad4d832eb94173552f31d8a25dceb4)
+[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/bor)](https://cran.r-project.org/package=bor) [![Build Status](https://travis-ci.org/davidnsousa/bor.svg?branch=master)](https://travis-ci.org/davidnsousa/bor) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1317543.svg)](https://doi.org/10.5281/zenodo.1317543) [![status](http://joss.theoj.org/papers/03ad4d832eb94173552f31d8a25dceb4/status.svg)](http://joss.theoj.org/papers/03ad4d832eb94173552f31d8a25dceb4) [![Rdoc](http://www.rdocumentation.org/badges/version/bor)](http://www.rdocumentation.org/packages/bor)
 
 bor is an R package designed to transform focal observations' data, referring to the occurrence of social interactions, into asymmetric data matrices. [Also on CRAN](https://www.google.com/url?q=https%3A%2F%2Fcran.r-project.org%2Fpackage%3Dbor&sa=D&sntz=1&usg=AFQjCNFdfSZJZseijAgi48TledGFsT5MeQ).
 
 ## [qsort](https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fjoaordaniel%2Fqsort&sa=D&sntz=1&usg=AFQjCNECZfg_DVIwEX-lEbkk0UsghAqwzw) (2018)
 
-[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/qsort)](https://cran.r-project.org/package=qsort) [![Rdoc](http://www.rdocumentation.org/badges/version/qsort)](http://www.rdocumentation.org/packages/qsort) [![Build Status](https://travis-ci.org/joaordaniel/qsort.svg?branch=master)](https://travis-ci.org/joaordaniel/qsort) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1844717.svg)](https://doi.org/10.5281/zenodo.1844717) [![status](http://joss.theoj.org/papers/d691db3ee91ae5c10e26464ddda1bd2e/status.svg)](http://joss.theoj.org/papers/d691db3ee91ae5c10e26464ddda1bd2e)
+[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/qsort)](https://cran.r-project.org/package=qsort) [![Build Status](https://travis-ci.org/joaordaniel/qsort.svg?branch=master)](https://travis-ci.org/joaordaniel/qsort) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1844717.svg)](https://doi.org/10.5281/zenodo.1844717) [![status](http://joss.theoj.org/papers/d691db3ee91ae5c10e26464ddda1bd2e/status.svg)](http://joss.theoj.org/papers/d691db3ee91ae5c10e26464ddda1bd2e)[![Rdoc](http://www.rdocumentation.org/badges/version/qsort)](http://www.rdocumentation.org/packages/qsort) 
 
 qsort is an R package that allows scoring Q-sort data, using criteria sorts and derived scales from subsets of items. This package includes descriptions and scoring procedures for four different Q-sets. [Also on CRAN](https://www.google.com/url?q=https%3A%2F%2Fcran.r-project.org%2Fpackage%3Dqsort&sa=D&sntz=1&usg=AFQjCNFrTVhAGbJYD5IMlwzhveHw1HUxMQ).
 
