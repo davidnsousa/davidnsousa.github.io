@@ -16,21 +16,31 @@ miniabm is a minimalist tool for agent-based modeling in python. This package al
 
 ## [SDGen](https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fdavidnsousa%2FSDGen&sa=D&sntz=1&usg=AFQjCNGRUN0RYbBu2H94siCIsVJUov-pKA) (2019)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3458002.svg)](https://doi.org/10.5281/zenodo.3458002)
+
 SDGen is a superdonor generator program for experimental research on human chemosignals communication. 
 
 ## [TMTGen](https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fdavidnsousa%2FTMTGen&sa=D&sntz=1&usg=AFQjCNHey6qJNzQicQXb5GROkjLY5JLWFQ) (2019)
+
+[![DOI](https://zenodo.org/badge/208064496.svg)](https://zenodo.org/badge/latestdoi/208064496)
 
 TMTGen is an automatic [Trail Making Test](https://www.google.com/url?q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTrail_Making_Test&sa=D&sntz=1&usg=AFQjCNFnBq7zeF39Mdot3KkGWmGjpopRBw) (TMT) generator for experimental research in neuropsychology. The program offers a trail generator as well as a testing platform for measuring response speed and response accuracy in the TMT.
 
 ## [bor](https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fdavidnsousa%2Fbor&sa=D&sntz=1&usg=AFQjCNGE2uTjlTbCtT3e7hkmHT-hoYfgiQ) (2018)
 
+[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/bor)](https://cran.r-project.org/package=bor) [![Rdoc](http://www.rdocumentation.org/badges/version/bor)](http://www.rdocumentation.org/packages/bor) [![Build Status](https://travis-ci.org/davidnsousa/bor.svg?branch=master)](https://travis-ci.org/davidnsousa/bor) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1317543.svg)](https://doi.org/10.5281/zenodo.1317543) [![status](http://joss.theoj.org/papers/03ad4d832eb94173552f31d8a25dceb4/status.svg)](http://joss.theoj.org/papers/03ad4d832eb94173552f31d8a25dceb4)
+
 bor is an R package designed to transform focal observations' data, referring to the occurrence of social interactions, into asymmetric data matrices. [Also on CRAN](https://www.google.com/url?q=https%3A%2F%2Fcran.r-project.org%2Fpackage%3Dbor&sa=D&sntz=1&usg=AFQjCNFdfSZJZseijAgi48TledGFsT5MeQ).
 
 ## [qsort](https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fjoaordaniel%2Fqsort&sa=D&sntz=1&usg=AFQjCNECZfg_DVIwEX-lEbkk0UsghAqwzw) (2018)
 
+[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/qsort)](https://cran.r-project.org/package=qsort) [![Rdoc](http://www.rdocumentation.org/badges/version/qsort)](http://www.rdocumentation.org/packages/qsort) [![Build Status](https://travis-ci.org/joaordaniel/qsort.svg?branch=master)](https://travis-ci.org/joaordaniel/qsort) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1844717.svg)](https://doi.org/10.5281/zenodo.1844717) [![status](http://joss.theoj.org/papers/d691db3ee91ae5c10e26464ddda1bd2e/status.svg)](http://joss.theoj.org/papers/d691db3ee91ae5c10e26464ddda1bd2e)
+
 qsort is an R package that allows scoring Q-sort data, using criteria sorts and derived scales from subsets of items. This package includes descriptions and scoring procedures for four different Q-sets. [Also on CRAN](https://www.google.com/url?q=https%3A%2F%2Fcran.r-project.org%2Fpackage%3Dqsort&sa=D&sntz=1&usg=AFQjCNFrTVhAGbJYD5IMlwzhveHw1HUxMQ).
 
 ## [MCSD](https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fdavidnsousa%2Fmcsd&sa=D&sntz=1&usg=AFQjCNFvzEsGEqEnDk3HybItz945bezB2w) (2018)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1471546.svg)](https://doi.org/10.5281/zenodo.1471546) [![Build Status](https://travis-ci.org/davidnsousa/mcsd.svg?branch=master)](https://travis-ci.org/davidnsousa/mcsd) [![status](http://joss.theoj.org/papers/887b1b7792d59ea6582a4700f8ff98ad/status.svg)](http://joss.theoj.org/papers/887b1b7792d59ea6582a4700f8ff98ad)
 
 MCSD is a simple MATLAB/Octave tool designed to simulate diffusion processes in complex environments such as biological tissues.
 
