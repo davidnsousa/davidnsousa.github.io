@@ -1,4 +1,4 @@
-[Link to another page](./code.html).
+[Link to another page](./code.md).
 
 # test
 
