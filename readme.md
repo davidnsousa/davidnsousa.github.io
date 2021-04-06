@@ -1,4 +1,6 @@
-[Link to another page](./code.md).
+---
+permalink: /
+---
 
 # test
 
