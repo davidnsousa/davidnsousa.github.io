@@ -6,25 +6,25 @@ permalink: /code_repos/
 
 ## [pyBART](https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fdavidnsousa%2FpyBART&sa=D&sntz=1&usg=AFQjCNFBzf_c0_NxEbkMMWdjHbpHeDFTFw) (2019)
 
-[![Generic badge](https://img.shields.io/badge/Language-Python-yellow.svg)](https://www.python.org/)] [![DOI](https://zenodo.org/badge/227622179.svg)](https://zenodo.org/badge/latestdoi/227622179) 
+[![Generic badge](https://img.shields.io/badge/Language-Python-yellow.svg)](https://www.python.org/) [![DOI](https://zenodo.org/badge/227622179.svg)](https://zenodo.org/badge/latestdoi/227622179) 
 
 A python implementation of the BART: a task designed to assess risk-taking behavior.
 
 ## [miniabm](https://www.google.com/url?q=https%3A%2F%2Fpypi.org%2Fproject%2Fminiabm%2F0.0.1%2F&sa=D&sntz=1&usg=AFQjCNEXkO46JDpEhJxT-pXsySh2obWJuw) (2019)
 
-[![Generic badge](https://img.shields.io/badge/Language-Python-yellow.svg)](https://www.python.org/)](https://www.python.org/)
+[![Generic badge](https://img.shields.io/badge/Language-Python-yellow.svg)](https://www.python.org/)
 
 miniabm is a minimalist tool for agent-based modeling in python. This package allows the user to easily create objects with prespecified attributes, group the objects according the their attributes and change them dynamically in a batch. 
 
 ## [SDGen](https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fdavidnsousa%2FSDGen&sa=D&sntz=1&usg=AFQjCNGRUN0RYbBu2H94siCIsVJUov-pKA) (2019)
 
-[![Generic badge](https://img.shields.io/badge/Language-Python-yellow.svg)](https://www.python.org/)][![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3458002.svg)](https://doi.org/10.5281/zenodo.3458002)
+[![Generic badge](https://img.shields.io/badge/Language-Python-yellow.svg)](https://www.python.org/)[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3458002.svg)](https://doi.org/10.5281/zenodo.3458002)
 
 SDGen is a superdonor generator program for experimental research on human chemosignals communication. 
 
 ## [TMTGen](https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fdavidnsousa%2FTMTGen&sa=D&sntz=1&usg=AFQjCNHey6qJNzQicQXb5GROkjLY5JLWFQ) (2019)
 
-[![Generic badge](https://img.shields.io/badge/Language-Python-yellow.svg)](https://www.python.org/)][![DOI](https://zenodo.org/badge/208064496.svg)](https://zenodo.org/badge/latestdoi/208064496)
+[![Generic badge](https://img.shields.io/badge/Language-Python-yellow.svg)](https://www.python.org/)[![DOI](https://zenodo.org/badge/208064496.svg)](https://zenodo.org/badge/latestdoi/208064496)
 
 TMTGen is an automatic [Trail Making Test](https://www.google.com/url?q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTrail_Making_Test&sa=D&sntz=1&usg=AFQjCNFnBq7zeF39Mdot3KkGWmGjpopRBw) (TMT) generator for experimental research in neuropsychology. The program offers a trail generator as well as a testing platform for measuring response speed and response accuracy in the TMT.
 
