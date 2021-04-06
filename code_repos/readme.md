@@ -18,13 +18,13 @@ miniabm is a minimalist tool for agent-based modeling in python. This package al
 
 ## [SDGen](https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fdavidnsousa%2FSDGen&sa=D&sntz=1&usg=AFQjCNGRUN0RYbBu2H94siCIsVJUov-pKA) (2019)
 
-[![Generic badge](https://img.shields.io/badge/Language-Python-yellow.svg)](https://www.python.org/)[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3458002.svg)](https://doi.org/10.5281/zenodo.3458002)
+[![Generic badge](https://img.shields.io/badge/Language-Python-yellow.svg)](https://www.python.org/) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3458002.svg)](https://doi.org/10.5281/zenodo.3458002)
 
 SDGen is a superdonor generator program for experimental research on human chemosignals communication. 
 
 ## [TMTGen](https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fdavidnsousa%2FTMTGen&sa=D&sntz=1&usg=AFQjCNHey6qJNzQicQXb5GROkjLY5JLWFQ) (2019)
 
-[![Generic badge](https://img.shields.io/badge/Language-Python-yellow.svg)](https://www.python.org/)[![DOI](https://zenodo.org/badge/208064496.svg)](https://zenodo.org/badge/latestdoi/208064496)
+[![Generic badge](https://img.shields.io/badge/Language-Python-yellow.svg)](https://www.python.org/) [![DOI](https://zenodo.org/badge/208064496.svg)](https://zenodo.org/badge/latestdoi/208064496)
 
 TMTGen is an automatic [Trail Making Test](https://www.google.com/url?q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTrail_Making_Test&sa=D&sntz=1&usg=AFQjCNFnBq7zeF39Mdot3KkGWmGjpopRBw) (TMT) generator for experimental research in neuropsychology. The program offers a trail generator as well as a testing platform for measuring response speed and response accuracy in the TMT.
 
@@ -42,11 +42,13 @@ qsort is an R package that allows scoring Q-sort data, using criteria sorts and 
 
 ## [MCSD](https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fdavidnsousa%2Fmcsd&sa=D&sntz=1&usg=AFQjCNFvzEsGEqEnDk3HybItz945bezB2w) (2018)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1471546.svg)](https://doi.org/10.5281/zenodo.1471546) [![Build Status](https://travis-ci.org/davidnsousa/mcsd.svg?branch=master)](https://travis-ci.org/davidnsousa/mcsd) [![status](http://joss.theoj.org/papers/887b1b7792d59ea6582a4700f8ff98ad/status.svg)](http://joss.theoj.org/papers/887b1b7792d59ea6582a4700f8ff98ad)
+[![Generic badge](https://img.shields.io/badge/Language-Matlab-orange.svg)](https://www.mathworks.com)[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1471546.svg)](https://doi.org/10.5281/zenodo.1471546) [![Build Status](https://travis-ci.org/davidnsousa/mcsd.svg?branch=master)](https://travis-ci.org/davidnsousa/mcsd) [![status](http://joss.theoj.org/papers/887b1b7792d59ea6582a4700f8ff98ad/status.svg)](http://joss.theoj.org/papers/887b1b7792d59ea6582a4700f8ff98ad)
 
 MCSD is a simple MATLAB/Octave tool designed to simulate diffusion processes in complex environments such as biological tissues.
 
 ## [Cooperation under ecological pressure: Cognitive adaptations](https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fdavidnsousa%2FCUEPCA&sa=D&sntz=1&usg=AFQjCNEi5gnrWs_bvo5Kc_IxcWISkPb1Dw) (2017)
+
+[![Generic badge](https://img.shields.io/badge/Language-NetLogo-green.svg)](https://ccl.northwestern.edu/netlogo/)
 
 Investigating the importance of cognitive adaptations necessary for the success of cooperation  under ecological pressure, including when non-cooperative agents are also present in the system and take advantage of cooperative efforts for the survival of the group (Netlogo applet).
 
@@ -54,17 +56,25 @@ This applet was developed in the context of my [master's thesis](http://www.goog
 
 ## [Emergence of despotic and egalitarian societies](http://www.google.com/url?q=http%3A%2F%2Fmodelingcommons.org%2Fbrowse%2Fone_model%2F6478&sa=D&sntz=1&usg=AFQjCNEsONh9PDAryJrOEn-jL55IwuZDQA) (2017)
 
+[![Generic badge](https://img.shields.io/badge/Language-NetLogo-green.svg)](https://ccl.northwestern.edu/netlogo/)
+
 Understanding the relation between dominance and spatial structure and its consequence on social behavior (with Netlogo applet).
 
 ## [Cooperation in spatial games](http://www.google.com/url?q=http%3A%2F%2Fmodelingcommons.org%2Fbrowse%2Fone_model%2F6476&sa=D&sntz=1&usg=AFQjCNGhHfODwNL_TML2sWmFVT4OxY0joQ) (2016)
+
+[![Generic badge](https://img.shields.io/badge/Language-NetLogo-green.svg)](https://ccl.northwestern.edu/netlogo/)
 
 Experiments on the evolution and maintenance of cooperation in spatially structured populations (with Netlogo applet).
 
 ## [Extinction and evolution](http://www.google.com/url?q=http%3A%2F%2Fmodelingcommons.org%2Fbrowse%2Fone_model%2F6477&sa=D&sntz=1&usg=AFQjCNFMdEooH3oNyAcL36rb-xIvSVcIqw) (2016)
 
+[![Generic badge](https://img.shields.io/badge/Language-NetLogo-green.svg)](https://ccl.northwestern.edu/netlogo/)
+
 Understanding the importance of mass extinction events for the evolution of biological diversity (with Netlogo applet).
 
 ## [Molecular diffusion](http://www.google.com/url?q=http%3A%2F%2Fmodelingcommons.org%2Fbrowse%2Fone_model%2F6475&sa=D&sntz=1&usg=AFQjCNHRUEb0yDIh1HiwVJu4EESDoqnAfw) (2016)
+
+[![Generic badge](https://img.shields.io/badge/Language-NetLogo-green.svg)](https://ccl.northwestern.edu/netlogo/)
 
 Understanding molecular diffusion and the effect of physical constraints (with Netlogo applet).
 
