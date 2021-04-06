@@ -12,7 +12,7 @@ A python implementation of the BART: a task designed to assess risk-taking behav
 
 ## [miniabm](https://www.google.com/url?q=https%3A%2F%2Fpypi.org%2Fproject%2Fminiabm%2F0.0.1%2F&sa=D&sntz=1&usg=AFQjCNEXkO46JDpEhJxT-pXsySh2obWJuw) (2019)
 
-[![Generic badge](https://img.shields.io/badge/Language-Python-yellow.svg)](https://www.python.org/)
+[![Generic badge](https://img.shields.io/badge/Language-Python-yellow.svg)](https://www.python.org/) [![PyPI version](https://badge.fury.io/py/miniabm.svg)](https://badge.fury.io/py/miniabm)
 
 miniabm is a minimalist tool for agent-based modeling in python. This package allows the user to easily create objects with prespecified attributes, group the objects according the their attributes and change them dynamically in a batch. 
 
