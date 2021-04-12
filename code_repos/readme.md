@@ -5,7 +5,9 @@ permalink: /code_repos/
 
 # Code Repositories
 
-## [pyBART](https://github.com/davidnsousa/pyBART) &#128279;
+## Python
+
+### [pyBART](https://github.com/davidnsousa/pyBART);
 
 [![Generic badge](https://img.shields.io/badge/Language-Python-yellow.svg)](https://www.python.org/) [![DOI](https://zenodo.org/badge/227622179.svg)](https://zenodo.org/badge/latestdoi/227622179) 
 
@@ -13,7 +15,7 @@ A python implementation of the [BART](https://www.wikiwand.com/en/Impulsivity#/B
 
 2019
 
-## [miniabm](https://pypi.org/project/miniabm/0.0.1/) &#128279;
+### [miniabm](https://pypi.org/project/miniabm/0.0.1/);
 
 [![Generic badge](https://img.shields.io/badge/Language-Python-yellow.svg)](https://www.python.org/) [![PyPI version](https://badge.fury.io/py/miniabm.svg)](https://badge.fury.io/py/miniabm)
 
@@ -21,7 +23,7 @@ miniabm is a minimalist tool for agent-based modeling in python. This package al
 
 2019
 
-## [SDGen](https://github.com/davidnsousa/SDGen) &#128279;
+### [SDGen](https://github.com/davidnsousa/SDGen);
 
 [![Generic badge](https://img.shields.io/badge/Language-Python-yellow.svg)](https://www.python.org/) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3458002.svg)](https://doi.org/10.5281/zenodo.3458002)
 
@@ -29,7 +31,7 @@ SDGen is a superdonor generator program for experimental research on human chemo
 
 2019
 
-## [TMTGen](https://github.com/davidnsousa/TMTGen) &#128279; 
+### [TMTGen](https://github.com/davidnsousa/TMTGen); 
 
 [![Generic badge](https://img.shields.io/badge/Language-Python-yellow.svg)](https://www.python.org/) [![DOI](https://zenodo.org/badge/208064496.svg)](https://zenodo.org/badge/latestdoi/208064496)
 
@@ -37,7 +39,9 @@ TMTGen is an automatic [Trail Making Test](https://www.google.com/url?q=https%3A
 
 2019
 
-## [bor](https://github.com/davidnsousa/bor) &#128279;
+## R
+
+### [bor](https://github.com/davidnsousa/bor);
 
 [![Generic badge](https://img.shields.io/badge/Language-R-blue.svg)](https://www.r-project.org/)
 [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/bor)](https://cran.r-project.org/package=bor) [![Build Status](https://travis-ci.org/davidnsousa/bor.svg?branch=master)](https://travis-ci.org/davidnsousa/bor) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1317543.svg)](https://doi.org/10.5281/zenodo.1317543) [![status](http://joss.theoj.org/papers/03ad4d832eb94173552f31d8a25dceb4/status.svg)](http://joss.theoj.org/papers/03ad4d832eb94173552f31d8a25dceb4) [![Rdoc](http://www.rdocumentation.org/badges/version/bor)](http://www.rdocumentation.org/packages/bor)
@@ -46,7 +50,7 @@ bor is an R package designed to transform focal observations' data, referring to
 
 2018
 
-## [qsort](https://github.com/joaordaniel/qsort) &#128279;
+### [qsort](https://github.com/joaordaniel/qsort);
 
 [![Generic badge](https://img.shields.io/badge/Language-R-blue.svg)](https://www.r-project.org/)
 [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/qsort)](https://cran.r-project.org/package=qsort) [![Build Status](https://travis-ci.org/joaordaniel/qsort.svg?branch=master)](https://travis-ci.org/joaordaniel/qsort) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1844717.svg)](https://doi.org/10.5281/zenodo.1844717) [![status](http://joss.theoj.org/papers/d691db3ee91ae5c10e26464ddda1bd2e/status.svg)](http://joss.theoj.org/papers/d691db3ee91ae5c10e26464ddda1bd2e)[![Rdoc](http://www.rdocumentation.org/badges/version/qsort)](http://www.rdocumentation.org/packages/qsort) 
@@ -55,7 +59,9 @@ qsort is an R package that allows scoring Q-sort data, using criteria sorts and 
 
 2018
 
-## [MCSD](https://github.com/davidnsousa/mcsd) &#128279;
+## Matlab
+
+### [MCSD](https://github.com/davidnsousa/mcsd);
 
 [![Generic badge](https://img.shields.io/badge/Language-Matlab-blueviolet.svg)](https://www.mathworks.com) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1471546.svg)](https://doi.org/10.5281/zenodo.1471546) [![Build Status](https://travis-ci.org/davidnsousa/mcsd.svg?branch=master)](https://travis-ci.org/davidnsousa/mcsd) [![status](http://joss.theoj.org/papers/887b1b7792d59ea6582a4700f8ff98ad/status.svg)](http://joss.theoj.org/papers/887b1b7792d59ea6582a4700f8ff98ad)
 
@@ -63,7 +69,7 @@ MCSD is a simple MATLAB/Octave tool designed to simulate diffusion processes in 
 
 2018
 
-## [Cooperation under ecological pressure: Cognitive adaptations](https://github.com/davidnsousa/CUEPCA) &#128279;
+### [CUEPCA](https://github.com/davidnsousa/CUEPCA);
 
 [![Generic badge](https://img.shields.io/badge/Language-NetLogo-green.svg)](https://ccl.northwestern.edu/netlogo/)
 
@@ -73,7 +79,9 @@ This applet was developed in the context of my [master's thesis](https://reposit
 
 2017
 
-## [Emergence of despotic and egalitarian societies](http://modelingcommons.org/browse/one_model/6478#model_tabs_browse_info) &#128279;
+## Netlogo
+
+### [Emergence of despotic and egalitarian societies](http://modelingcommons.org/browse/one_model/6478#model_tabs_browse_info);
 
 [![Generic badge](https://img.shields.io/badge/Language-NetLogo-green.svg)](https://ccl.northwestern.edu/netlogo/)
 
@@ -81,7 +89,7 @@ A Netlogo applet designed to understand the relation between dominance and spati
 
 2017
 
-## [Spatial PD](http://modelingcommons.org/browse/one_model/6476#model_tabs_browse_info) &#128279;
+### [Spatial PD](http://modelingcommons.org/browse/one_model/6476#model_tabs_browse_info);
 
 [![Generic badge](https://img.shields.io/badge/Language-NetLogo-green.svg)](https://ccl.northwestern.edu/netlogo/)
 
@@ -89,7 +97,7 @@ A Netlogo applet designed to investigate the evolution and maintenance of cooper
 
 2016
 
-## [Extinction and evolution](http://modelingcommons.org/browse/one_model/6477#model_tabs_browse_info) &#128279;
+### [Extinction and evolution](http://modelingcommons.org/browse/one_model/6477#model_tabs_browse_info);
 
 [![Generic badge](https://img.shields.io/badge/Language-NetLogo-green.svg)](https://ccl.northwestern.edu/netlogo/)
 
@@ -97,11 +105,11 @@ A Netlogo applet designed to understand the importance of mass extinction events
 
 2016
 
-## [Molecular diffusion](http://modelingcommons.org/browse/one_model/6475#model_tabs_browse_info) &#128279;
+### [Molecular diffusion](http://modelingcommons.org/browse/one_model/6475#model_tabs_browse_info);
 
 [![Generic badge](https://img.shields.io/badge/Language-NetLogo-green.svg)](https://ccl.northwestern.edu/netlogo/)
 
-A Netlogo applet designed to understand molecular diffusion and the effect of physical constraints (with Netlogo applet).
+A Netlogo applet designed to understand molecular diffusion and the effect of physical constraints.
 
 2016
 
