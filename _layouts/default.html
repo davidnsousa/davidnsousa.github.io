@@ -37,13 +37,7 @@
       <section id="main_content" class="inner">
         {{ content }}
       </section>
-      <div class="btdiv">
-	  <a onClick="showhide()" class="btdiv">-&nbsp;&nbsp;</a>
-	  <div id="sidebar" class="rightbar">
-	     <a onClick="showhide()" class="btdiv">_&nbsp;&nbsp;</a>
-             {% include toc.html html=content class="tocstyle" h_max=2 submenu_class="tocstyle" %}
-	  </div>
-      </div>
+      {% include tocbar.html %}
     </div>
 
     <!-- FOOTER  -->
@@ -66,15 +60,5 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
-	<script>
-	function showhide() {
-	  var x = document.getElementById("sidebar");
-	  if (x.style.display === "none") {
-	    x.style.display = "block";
-	  } else {
-	    x.style.display = "none";
-	  }
-	}
-	</script>
   </body>
 </html>
