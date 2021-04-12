@@ -1,0 +1,36 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.tocstyle {
+  list-style-type: none;
+
+}
+
+.tocstyle a {
+  font-size: 13px;
+  color: gray;
+}
+
+.btdiv {
+  top: 280px;
+  right: 45px;
+  position: fixed;
+}
+
+.btdiv a {
+  color: gray;
+}
+
+.btdiv a:hover {
+  text-decoration: none;
+}
+
+.rightbar {
+  background-color: #f2f2f2;
+  border-right: 5px solid #DCDADA;
+  word-wrap: break-word;
+  width: 150px;
+  padding: 8px 0;
+}
