@@ -3,6 +3,11 @@
 
 @import "{{ site.theme }}";
 
+#header_wrap {
+  background: #212121;
+
+}
+
 .navbar {
   overflow: hidden;
   background-color: #212121;
