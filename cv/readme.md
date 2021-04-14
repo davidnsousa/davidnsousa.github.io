@@ -5,25 +5,10 @@ permalink: /cv/
 
 # Curriculum Vitae
 
-## Experience
-
-2018:2019 - Research assistant - William James Center for Research, ISPA | Lisbon
-
-2015:2016 - Research assistant - Institute of Biophysics and Biomedical Engineering (IBEB) | Lisbon
-
-## Education
-
-MA in **Anthropology** - ISCTE | Libon (ongoing)
-
-2018 - MSc in **Cognitive Science** - University of Lisbon
-
-2016 - 23rd International Summer School in Cognitive Science in New Bulgarian University
-
-2015 - BSc in **Physics** - University of Lisbon (with ERASMUS in the University of Leipzig Germany)
-
 ## Thesis
 
 **Sousa, D. N.** (2018). A memória como condição para o sucesso da cooperação. [&#128279;](http://hdl.handle.net/10451/32768)
+
 
 ## Publications
 
