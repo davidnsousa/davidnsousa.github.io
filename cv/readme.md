@@ -5,6 +5,10 @@ permalink: /cv/
 
 # Curriculum Vitae
 
+## Skills
+
+**IT** - Linux; C; Python; R; Matlab/Octave; Javascript/Node.js + HTML + CSS; Netlogo; Prolog; Latex; E-Prime
+
 ## Experience
 
 2018 : 2019 - Research assistant - William James Center for Research, ISPA, Lisbon
@@ -13,13 +17,13 @@ permalink: /cv/
 
 ## Education
 
-2022 (expected) - MA in Anthropology - ISCTE, Libon 
+2022 (expected) - MA in **Anthropology** - ISCTE, Libon 
 
-2018 - MSc in Cognitive Science - University of Lisbon
+2018 - MSc in **Cognitive Science** - University of Lisbon
 
 2016 - 23rd International Summer School in Cognitive Science in New Bulgarian University
 
-2015 - BSc in Physics - University of Lisbon (with ERASMUS in the University of Leipzig Germany)
+2015 - BSc in **Physics** - University of Lisbon (with ERASMUS in the University of Leipzig Germany)
 
 ## Thesis
 
