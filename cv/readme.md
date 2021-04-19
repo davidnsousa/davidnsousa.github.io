@@ -9,11 +9,17 @@ permalink: /cv/
 
 **IT** - Linux; C; Python; R; Matlab/Octave; Javascript/Node.js + HTML + CSS; Netlogo; Prolog; Latex; E-Prime
 
+**Languages**: Portuguese; English; Spanish; French; German;
+
 ## Experience
 
 2018 : 2019 - Research assistant - William James Center for Research, ISPA, Lisbon
 
+(Data Collection, database management and coding)
+
 2015 : 2016 - Research assistant - Institute of Biophysics and Biomedical Engineering (IBEB), Lisbon
+
+(Computer simulations)
 
 ## Education
 
