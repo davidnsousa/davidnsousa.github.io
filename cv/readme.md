@@ -15,15 +15,15 @@ permalink: /cv/
 
 2018 : 2019 - Research assistant - William James Center for Research, ISPA, Lisbon
 
-(Data Collection, database management and coding)
+(Data Collection, database management and coding for experiments in development and cognitive social psychology)
 
 2015 : 2016 - Research assistant - Institute of Biophysics and Biomedical Engineering (IBEB), Lisbon
 
-(Computer simulations)
+(coding of computer simulations of diffusion in biological tissues)
 
 ## Education
 
-2022 (expected) - MA in **Anthropology** - ISCTE, Libon 
+2022 (expected) - MA in **Anthropology** - ISCTE, Lisbon 
 
 2018 - MSc in **Cognitive Science** - University of Lisbon
 
