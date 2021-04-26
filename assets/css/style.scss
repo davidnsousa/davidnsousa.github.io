@@ -90,3 +90,20 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #45a049;
 }
+
+.telegram {
+  left: 20px;
+  bottom: 40px;
+  position: fixed;
+  width: 60px;
+  height: 60px;
+}
+
+.telegram img{
+  width: 100%;
+  height: 100%;
+}
+
+.telegram img:hover{
+  opacity: 0.8;
+}
