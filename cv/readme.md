@@ -13,11 +13,11 @@ permalink: /cv/
 
 ## Experience
 
-2018 : 2019 - Research assistant - William James Center for Research, ISPA, Lisbon
+2018 : 2019 - **Research assistant** - William James Center for Research, ISPA, Lisbon
 
 (Data Collection, database management and coding for experiments in development and cognitive social psychology)
 
-2015 : 2016 - Research assistant - Institute of Biophysics and Biomedical Engineering (IBEB), Lisbon
+2015 : 2016 - **Research assistant** - Institute of Biophysics and Biomedical Engineering (IBEB), Lisbon
 
 (coding of computer simulations of diffusion in biological tissues)
 
