@@ -1,11 +1,377 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="refresh" content="0;url=https://dnsousa.com">
-    <title>Redirecting...</title>
-</head>
-<body>
-    <p>If you are not redirected, <a href="https://dnsousa.com">click here</a>.</p>
-</body>
+<!-- Template by html.am -->
+<html>
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <title>David Sousa</title>
+   <style type="text/css">
+     body {
+       background-color: #F2F2F2;
+       margin:0;
+       padding:0;
+       font-family: Arial, Helvetica, sans-serif;
+       line-height: 1.5em;
+     }
+     #header {
+       z-index: 1;
+       background-image: linear-gradient(45deg,
+             rgb(0, 0, 0),
+             rgba(0, 0, 0, 0.096)),url("/files/public/site/back.jpg");
+       background-size: 100% ;
+       background-position: center;
+       width: 100%;
+       height: 200px;
+     }
+     #header h1 {
+       margin: 0;
+       padding-top: 15px;
+     }
+     main {
+       background-color: #F2F2F2;
+       float: left;
+       width: 100%;
+     }
+     #content {
+         width: 50%;
+       margin: auto;
+       margin-top: 80px;
+     }
+     #nav {
+       display: block;
+       height: 100%;
+       width: 230px;
+       top: 0;
+       position: fixed;
+       background-color: #111;
+       overflow-x: hidden;
+     }
+     #menu-button {
+       display: block;
+       height: 100%;
+       width: 40px;
+       position: fixed;
+       background-color: #F2F2F2;
+       overflow-x: hidden;
+     }
+     #nav-top {
+       height: 200px;
+     }
+     #nav-bottom {
+       position: absolute;
+       bottom: 15px;
+     }
+     #footer {
+       clear: left;
+       width: 100%;
+       background: #F2F2F2;
+       text-align: center;
+       padding: 4px 0;
+     }
+     #wrapper {
+       overflow: hidden;
+     }
+     .innertube {
+       margin: 15px;
+       margin-top: 0;
+     }
+     .title {
+       width: 50%;
+       display: flex;
+       margin: auto;
+       justify-content: left;
+       align-items: center;
+       height: 80px;
+     }
+     .subtitle {
+       width: 50%;
+       display: flex;
+       margin: auto;
+       justify-content: left;
+       align-items: center;
+       height: 80px;
+       color: #F2F2F2;
+     }
+     p {
+       color: #555;
+     }
+     a {
+       color: #147CD1;
+       text-decoration: none;
+     }
+     a:hover {
+       text-decoration: underline;
+     }
+     nav ul {
+       list-style-type: none;
+     }
+     nav a {
+       color: #afafaf;
+       text-decoration: none;
+     }
+     nav li {
+       padding:5px 10px;
+     }
+     h1 {
+       margin-top: 50px;
+       margin-bottom: 40px;
+       color: #262626;
+     }
+     h2 {
+       margin-top: 40px;
+       color: #262626;
+     }
+     h3 {
+       color: #262626;
+     }
+
+     .collapsible {
+         display: none;
+     }
+
+   </style>
+   <script>
+     function w3_open() {
+       document.querySelector('#nav').style.display = "block";
+     }
+     function w3_close() {
+       document.querySelector('#nav').style.display = "none";
+     }
+
+     document.addEventListener("DOMContentLoaded", function() {
+         const toggleLinks = document.querySelectorAll(".toggle-link");
+         const collapsibleDivs = document.querySelectorAll(".collapsible");
+
+         toggleLinks.forEach(link => {
+             link.addEventListener("click", function(event) {
+                 event.preventDefault();
+                 const targetId = this.getAttribute("data-target");
+                 const targetDiv = document.getElementById(targetId);
+
+                 collapsibleDivs.forEach(div => {
+                     if (div !== targetDiv) {
+                         div.style.display = "none"; // Collapse all other divs
+                     }
+                 });
+
+                 targetDiv.style.display = "block";
+                 window.scroll({
+                   top: 0,
+                   left: 0,
+                   behavior: 'smooth'
+                 });
+
+             });
+         });
+     });
+
+
+   </script>
+   <script src="https://kit.fontawesome.com/ab0cb88ed1.js" crossorigin="anonymous"></script>
+ </head>
+ <body>
+   <header id="header">
+     <div class="innertube">
+       <div class="title">
+         <h1 style="color: #F2F2F2;">David Sousa</h1>
+       </div>
+       <div class="subtitle">
+         <h3 style="color: #F2F2F2";>Teacher</h3>
+       </div>
+     </div>
+   </header>
+   <div id="wrapper">
+     <main>
+       <div id="content">
+         <div class="innertube">
+       <div id="Presentation" class="collapsible" style="display: block">
+       <h1 id="presentation">Presentation</h1>
+         <p>I am a teacher, an open-source software developer and peer reviewer for JOSS (<a href="https://joss.theoj.org/">Journal of Open Source Software</a>) and project coordinator and researcher at <a href="https://nuclio.org/en/">NUCLIO</a>.</p>
+         <h3>Background:</h3>
+         <p><strong>(2022) MA Anthropology</strong> (ISCTE, Lisbon)</p>
+         <p><strong>(2018) MSc Cognitive Sciences</strong> (University of Lisbon; 23rd International Summer School of Cognitive Science, New University of Sofia, Bulgaria)</p>
+         <p><strong>(2015) BSc Physics</strong> (Faculty of Sciences, University of Lisbon; ERASMUS, University of Leipzig, Germany)</p>
+         <h3>Research experience:</h3>
+         <p><strong>(2018 - 2019) Social embodied cognition and psychology</strong> – the effect of human odors produced under positive and negative odors on the perceived presence of others in the immediate environment (William James Center for Research, ISPA, Lisbon). </p>
+         <p><strong>(2017 - 2018) Social cognition and multi-agent modelling</strong> – the co-evolution of cooperation and social cognition in primates under ecological pressure (Biosystems and Integrative Sciences Institute (BioISI), Lisbon); </p>
+         <p><strong>(2012 - 2015) Biophysics</strong> – water diffusion in biological tissues (Institute of Biophysics and Biomedical Engineering (IBEB), Lisbon); </p>
+         <p>This website is dedicated to present my research interests, projects and research output.</p>
+         </div>
+       <div id="Projects" class="collapsible">
+       <h1 id="projects">Projects</h1>
+     <center>
+         <a href="https://clicpolit.eu/"><img src="https://nuclio.org/wp-content/uploads/2024/01/SoundscapesLogo.png" alt="scheme" height="100" /></a>
+         </center>
+     <p>SoundScapes – Sonification Environments for STEAM Learning -proposes an innovative STEAM approach with an emphasis on Arts, where students design and use a sonification environment, which converts numeric data related to school curricula into sound. This approach aims to increase student engagement and motivation and to promote an inclusive environment, where they learn through exploring the hearing sense (especially relevant for the visually impaired) and communicate and connect with each other through the universal language that is Music.</p>
+     <br>
+     <center>
+         <a href="https://clicpolit.eu/"><img src="https://nuclio.org/wp-content/uploads/2022/06/CliC_PoLIT_Logo.jpg" alt="scheme" height="100" /></a>
+         </center>
+     <p>CliC-PoLiT is a project that aims at engaging students and the society in environmental and climate change activities to raise awareness and strengthen responsible citizenship. Incorporating the terms of climate change, urban sustainability and light pollution into the curriculum requires systemic thinking and interdisciplinary approaches, demanding in parallel for pedagogical innovations that provide interactive, experiential, transformative, and real-world learning. In light of these challenges, the CliC-PoLiT project aims to design, implement, and evaluate blended innovative educational approaches and digital tools that provide this learning process towards a specific issue.</p>
+     <br>
+     <center>
+         <a href="https://nuclio.org/en/project/leds-en/"><img src="https://nuclio.org/wp-content/uploads/2024/01/LeDS_Logo_01.png" alt="scheme" height="100" /></a>
+         </center>
+         <p>LeDS project – Learning Digital Skills through Arts and Performance – aims to develop an innovative STEAM approach to demonstrate how Arts can be used as a beginning, middle, and end of a STEAM activity focused on digital skills and where all the disciplines are seamlessly integrated. Through the LeDS STEAM approach, students will develop important digital skills as well as other important academic, social, and emotional skills such as creativity, collaboration, communication, critical thinking, tolerance, self-esteem, and self-confidence, among others. Finally, teachers will also become more skilled both in digital skills and in STEAM education.</p>
+         <center>
+     <br>
+         <a href="https://assess.nuclio.org"><img src="https://assess.nuclio.org/wp-content/uploads/2021/03/cropped-ASSESS_Logo-text-01-1536x484.png" alt="scheme" height="100" /></a>
+         </center>
+         <p>Why do we assess our students? What added value does this assessment bring to both students and teachers? Can we use assessment to stimulate cognitive, social and emotional development? Can assessment become a powerful tool for the development of students’ skills and teachers’ practice? ASSESS is a project co-funded by the Erasmus + Agency of the European Union between 2020 and 2023 that targets these and many more questions about assessment with the goal of creating a powerful assessment framework for teachers and students.</p>
+         <center>
+               <a href="https://changemakers.nuclio.org/"><img src="https://changemakers.nuclio.org/wp-content/uploads/2021/10/cropped-cropped-Logo-change-makers-final-transp-01.png" alt="scheme" height="100" /></a>
+         </center>
+         <p>NUCLIO and InovLabs joined hands to bring CHANGE MAKERS to schools and to the community! A space for creation, learning and innovation where imagination is the limit. Change Makers offers students, teachers, citizens and creatives the opportunity to develop projects working with cutting-edge technologies (3D printers, Laser cutter, CNC Machine, Web Studio, among others) and with the dedicated monitoring of professionals with expertise in several scientific and educational fields.</p>
+       </div>
+       <div id="Academic Output" class="collapsible">
+       <h1 id="cv">Academic output</h1>
+           <h2 id="thesis">Thesis</h2>
+           <p><strong>Sousa, D. N.</strong> (2022). Antropologia do reencantamento: A relação pessoa-animal num santuário na Galiza rural [Dissertação de mestrado, Iscte - Instituto Universitário de Lisboa]. <a href="http://hdl.handle.net/10071/27021">🔗</a></p>
+           <p><strong>Sousa, D. N.</strong> (2018). A memória como condição para o sucesso da cooperação [Dissertação de mestrado, Universidade de Lisboa]. <a href="http://hdl.handle.net/10451/32768">🔗</a></p>
+           <h2 id="publications">Publications</h2>
+           <p><strong>Sousa, D. N.</strong>, Correia, L., &amp; Garcia-Marques, L. (2019). The importance of memory for the success of cooperation under ecological adversity. Adaptive Behavior. <a href="https://doi.org/10.1177/1059712319872518">🔗</a></p>
+           <p><strong>Sousa, D. N.</strong>, &amp; Daniel, J. R, (2018). qsort R package: A New Tool for Scoring Q-sort Data. Journal of Open Source Software, 3(32), 911. <a href="https://doi.org/10.21105/joss.00911">🔗</a></p>
+           <p><strong>Sousa, D. N.</strong>, &amp; Ferreira, H. A., (2018). MCSD: A MATLAB Tool for Monte-Carlo Simulations of Diffusion in biological Tissues. Journal of Open Source Software, 3(30), 966. <a href="https://doi.org/10.21105/joss.00966">🔗</a></p>
+           <p><strong>Sousa, D. N.</strong>, &amp; Daniel, J. R, (2018). bor: An R Package for Transforming Behavioral Observation Records into Data Matrices. Journal of Open Source Software, 3(28), 909. <a href="https://doi.org/10.21105/joss.00909">🔗</a></p>
+           <p><strong>Sousa, D. N.</strong>, &amp; Ferreira, H. A. (2015). Diffusion kurtosis imaging: Monte Carlo simulation of diffusion processes using crowdprocess. In Bioengineering (ENBENG), 2015 IEEE 4th Portuguese Meeting on (pp. 1-4). IEEE. <a href="https://ieeexplore.ieee.org/document/7088857/">🔗</a></p>
+           <h2 id="communications">Communications</h2>
+           <p><strong>Sousa, D. N.</strong>, Correia, L., &amp; Garcia-Marques, L., (2018) “A importância da memória para o sucesso da cooperação em primatas” (The importance of memory for the success of cooperation in primates) no Encontro Aberto de Primatologia (Open Meeting of Primatology). Almada, Portugal. <a href="https://issuu.com/correiodausalma/docs/primatologia2/50">Article</a></p>
+           <p><strong>Sousa, D. N.</strong>, &amp;  Ferreira  H. A., (2015). “Diffusion kurtosis imaging: Monte Carlo simulation of diffusion processes using crowdprocess” na IEEE 4th Portuguese Meeting on Bioengineering (ENBENG) organized by IEEE Engineering in Medicine and Biology Society (EMBS) Chapter of the IEEE  Portugal Section. Porto, Portugal. <a href="/files/public/site/cv/abstract_PBEM2015.pdf">Abstract</a></p>
+           <p><strong>Sousa, D. N.</strong>, &amp;  Ferreira  H. A., “Study of Diffusion Kurtosis Imaging parameters using Monte Carlo simulations”, ESMRMB 2015 Congress 32th Annual Scientific Meeting of the European Society for Magnetic Resonance in Medicine and Biology October 1-3, 2015, Edinburgh, United Kingdom. <a href="/files/public/site/cv/abstract_ESMRMB_2015.pdf">Abstract</a></p>
+           <h2 id="posters">Posters</h2>
+           <p><strong>Sousa, D. N.</strong>, Borlinhas, F., Ferreira, H. A., “Estimation of breast tumour tissue diffusion parameters from histological images and Monte-Carlo simulations”, ISMRM 2016 Congress 24th Annual Scientific Meeting of the International Society for Magnetic Resonance in Medicine May 7-13, 2016, Singapore. <a href="/files/public/site/cv/poster_ismrm2016.pdf">Poster</a></p>
+           <h2 id="unpublished-material">Unpublished material</h2>
+           <p>Apontamentos de Física I (Portuguese) (Notes on Physics). <a href="/files/public/site/cv/fisica.pdf">File</a></p>
+         </div>
+       <div id="Software" class="collapsible">
+       <h1 id="code">Software</h1>
+           <h2><a href="https://github.com/davidnsousa/nodelv">nodelv</a></h2>
+           <p><img src="https://img.shields.io/badge/Language-Node.js-darkgreen" alt="Generic badge" /></a></p>
+           <p>Node.js data logger and viewer. Useful for instance for citizen science projects that require sensor data logging for monitoring real-time measures of temperature, humidity, air quality, etc.</p>
+           <p>2024</p>
+           <h2 id="darchbox"><a href="https://github.com/davidnsousa/darchbox">darchbox</a></h2>
+           <p><img src="https://img.shields.io/badge/Language-Shell-9cf.svg" alt="Generic badge" /></a></p>
+           <p>darchbox is an Arch Linux Post installation setup script that setups a fully functional low resource comsumption desktop environment. darchbox installs the Pacman wrapper and AUR helper yay, updates the system, and sets up a basic desktop environment including openbox, rofi, tint2 and lemonbar.</p>
+           <img src="https://camo.githubusercontent.com/d1504fb06f177e65a0dae5efad9d9c6b37efb5fe748c1460e8da120796543556/68747470733a2f2f692e696d6775722e636f6d2f7539466d486a562e706e67" alt="scheme" width="500" />
+           <p>2023</p>
+           <h2 id="pybart"><a href="https://github.com/davidnsousa/pyBART">pyBART</a></h2>
+           <p><a href="https://www.python.org/"><img src="https://img.shields.io/badge/Language-Python-yellow.svg" alt="Generic badge" /></a> <a href="https://zenodo.org/badge/latestdoi/227622179"><img src="https://zenodo.org/badge/227622179.svg" alt="DOI" /></a></p>
+           <p>A python implementation of the <a href="https://www.wikiwand.com/en/Impulsivity#/Balloon_Analogue_Risk_Task">BART</a>: a task designed to assess risk-taking behavior.</p>
+           <p>2019</p>
+           <h2 id="miniabm"><a href="https://pypi.org/project/miniabm/0.0.1/">miniabm</a></h2>
+           <p><a href="https://www.python.org/"><img src="https://img.shields.io/badge/Language-Python-yellow.svg" alt="Generic badge" /></a> <a href="https://badge.fury.io/py/miniabm"><img src="https://badge.fury.io/py/miniabm.svg" alt="PyPI version" /></a></p>
+           <p>miniabm is a minimalist tool for agent-based modeling in python. This package allows the user to easily create objects with prespecified attributes, group the objects according the their attributes and change them dynamically in a batch.</p>
+           <p>2019</p>
+           <h2 id="sdgen"><a href="https://github.com/davidnsousa/SDGen">SDGen</a></h2>
+           <p><a href="https://www.python.org/"><img src="https://img.shields.io/badge/Language-Python-yellow.svg" alt="Generic badge" /></a> <a href="https://doi.org/10.5281/zenodo.3458002"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.3458002.svg" alt="DOI" /></a></p>
+           <p>SDGen is a superdonor generator program for experimental research on human chemosignals communication.</p>
+           <p>2019</p>
+           <h2 id="tmtgen"><a href="https://github.com/davidnsousa/TMTGen">TMTGen</a></h2>
+           <p><a href="https://www.python.org/"><img src="https://img.shields.io/badge/Language-Python-yellow.svg" alt="Generic badge" /></a> <a href="https://zenodo.org/badge/latestdoi/208064496"><img src="https://zenodo.org/badge/208064496.svg" alt="DOI" /></a></p>
+           <p>TMTGen is an automatic <a href="https://www.google.com/url?q=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTrail_Making_Test&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNFnBq7zeF39Mdot3KkGWmGjpopRBw">Trail Making Test</a> (TMT) generator for experimental research in neuropsychology. The program offers a trail generator as well as a testing platform for measuring response speed and response accuracy in the TMT.</p>
+           <p>2019</p>
+           <h2 id="bor"><a href="https://github.com/davidnsousa/bor">bor</a></h2>
+           <p><a href="https://www.r-project.org/"><img src="https://img.shields.io/badge/Language-R-blue.svg" alt="Generic badge" /></a>
+           <a href="https://cran.r-project.org/package=bor"><img src="http://www.r-pkg.org/badges/version/bor" alt="CRAN_Status_Badge" /></a> <a href="https://travis-ci.org/davidnsousa/bor"><img src="https://travis-ci.org/davidnsousa/bor.svg?branch=master" alt="Build Status" /></a> <a href="https://doi.org/10.5281/zenodo.1317543"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1317543.svg" alt="DOI" /></a> <a href="http://joss.theoj.org/papers/03ad4d832eb94173552f31d8a25dceb4"><img src="http://joss.theoj.org/papers/03ad4d832eb94173552f31d8a25dceb4/status.svg" alt="status" /></a> <a href="http://www.rdocumentation.org/packages/bor"><img src="http://www.rdocumentation.org/badges/version/bor" alt="Rdoc" /></a></p>
+           <p>bor is an R package designed to transform focal observations’ data, referring to the occurrence of social interactions, into asymmetric data matrices.</p>
+           <p>2018</p>
+           <h2 id="qsort"><a href="https://github.com/joaordaniel/qsort">qsort</a></h2>
+           <p><a href="https://www.r-project.org/"><img src="https://img.shields.io/badge/Language-R-blue.svg" alt="Generic badge" /></a>
+           <a href="https://cran.r-project.org/package=qsort"><img src="http://www.r-pkg.org/badges/version/qsort" alt="CRAN_Status_Badge" /></a> <a href="https://travis-ci.org/joaordaniel/qsort"><img src="https://travis-ci.org/joaordaniel/qsort.svg?branch=master" alt="Build Status" /></a> <a href="https://doi.org/10.5281/zenodo.1844717"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1844717.svg" alt="DOI" /></a> <a href="http://joss.theoj.org/papers/d691db3ee91ae5c10e26464ddda1bd2e"><img src="http://joss.theoj.org/papers/d691db3ee91ae5c10e26464ddda1bd2e/status.svg" alt="status" /></a><a href="http://www.rdocumentation.org/packages/qsort"><img src="http://www.rdocumentation.org/badges/version/qsort" alt="Rdoc" /></a></p>
+           <p>qsort is an R package that allows scoring Q-sort data, using criteria sorts and derived scales from subsets of items. This package includes descriptions and scoring procedures for four different Q-sets.</p>
+           <p>2018</p>
+           <h2 id="mcsd"><a href="https://github.com/davidnsousa/mcsd">MCSD</a></h2>
+           <p><a href="https://www.mathworks.com"><img src="https://img.shields.io/badge/Language-Matlab-blueviolet.svg" alt="Generic badge" /></a> <a href="https://doi.org/10.5281/zenodo.1471546"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1471546.svg" alt="DOI" /></a> <a href="https://travis-ci.org/davidnsousa/mcsd"><img src="https://travis-ci.org/davidnsousa/mcsd.svg?branch=master" alt="Build Status" /></a> <a href="http://joss.theoj.org/papers/887b1b7792d59ea6582a4700f8ff98ad"><img src="http://joss.theoj.org/papers/887b1b7792d59ea6582a4700f8ff98ad/status.svg" alt="status" /></a></p>
+           <p>MCSD is a simple MATLAB/Octave tool designed to simulate diffusion processes in complex environments such as biological tissues.</p>
+           <img src="https://github.com/davidnsousa/mcsd/raw/master/readmeExtras/README_06.png" alt="scheme" width="500" />
+           <p>2018</p>
+           <h2 id="cuepca"><a href="https://github.com/davidnsousa/CUEPCA">CUEPCA</a></h2>
+           <p><a href="https://ccl.northwestern.edu/netlogo/"><img src="https://img.shields.io/badge/Language-NetLogo-green.svg" alt="Generic badge" /></a></p>
+           <p>CUEPCA - Cooperation under ecological pressure: Cognitive adaptations. Netlogo applet to investigate the importance of cognitive adaptations that are necessary for the success of cooperation under ecological and social pressure.</p>
+           <p>This applet was developed in the context of my <a href="https://repositorio.ul.pt/handle/10451/32768">master’s thesis</a> and published with the article <a href="https://journals.sagepub.com/doi/10.1177/1059712319872518">The importance of memory for the success of cooperation under ecological adversity</a> .</p>
+           <p>2017</p>
+           <h2 id="emergence-of-despotic-and-egalitarian-societies"><a href="http://modelingcommons.org/browse/one_model/6478#model_tabs_browse_info">Emergence of despotic and egalitarian societies</a></h2>
+           <p><a href="https://ccl.northwestern.edu/netlogo/"><img src="https://img.shields.io/badge/Language-NetLogo-green.svg" alt="Generic badge" /></a></p>
+           <p>A Netlogo applet designed to understand the relation between dominance and spatial structure and its consequence on social behavior.</p>
+           <p>2017</p>
+           <h2 id="spatial-pd"><a href="http://modelingcommons.org/browse/one_model/6476#model_tabs_browse_info">Spatial PD</a></h2>
+           <p><a href="https://ccl.northwestern.edu/netlogo/"><img src="https://img.shields.io/badge/Language-NetLogo-green.svg" alt="Generic badge" /></a></p>
+           <p>A Netlogo applet designed to investigate the evolution and maintenance of cooperation in spatially structured populations of agents playing the Prisoner’s Dilemma with their nearest neighbors.</p>
+           <img src="https://modelingcommons.org/browse/display_preview/6476" alt="scheme" width="300" />
+           <p>2016</p>
+           <h2 id="extinction-and-evolution"><a href="http://modelingcommons.org/browse/one_model/6477#model_tabs_browse_info">Extinction and evolution</a></h2>
+           <p><a href="https://ccl.northwestern.edu/netlogo/"><img src="https://img.shields.io/badge/Language-NetLogo-green.svg" alt="Generic badge" /></a></p>
+           <p>A Netlogo applet designed to understand the importance of mass extinction events for the evolution of biological diversity.</p>
+           <p>2016</p>
+           <h2 id="molecular-diffusion"><a href="http://modelingcommons.org/browse/one_model/6475#model_tabs_browse_info">Molecular diffusion</a></h2>
+           <p><a href="https://ccl.northwestern.edu/netlogo/"><img src="https://img.shields.io/badge/Language-NetLogo-green.svg" alt="Generic badge" /></a></p>
+           <p>A Netlogo applet designed to understand molecular diffusion and the effect of physical constraints.</p>
+           <p>2016</p>
+       </div>
+       <div id="Electronics" class="collapsible">
+       <h1 id="electronics">Electronics</h1>
+     <h2 id="attiny-pedometer"><a href="https://github.com/davidnsousa/attiny-pedometer/">Attiny85 pedometer</a></h2>
+           <p><img src="https://img.shields.io/badge/Language-C++-ff69b4.svg" alt="Generic badge" /></a></p>
+           <p>An ATtiny85 step counter equipped with a ky-002 vibration sensor, featuring a switch button to initiate counting and a push button to display the number of steps and walked distance on the OLED screen.</p>
+           <img src="https://github.com/davidnsousa/attiny-pedometer//raw/main/scheme0.png" alt="scheme" width="500" />
+           <p>2023</p>
+           <h2 id="HC-SR04-midi-instrument"><a href="https://github.com/davidnsousa/HC-SR04-midi-instrument">HC-SR04 ultrasonic distance sensor midi instrument</a></h2>
+           <p><a href="https://www.python.org/"><img src="https://img.shields.io/badge/Language-Python-yellow.svg" alt="Generic badge" /></a>
+           <p>C-SR04 ultrasonic distance sensor midi instrument with Raspberry Pi and based on fluidsynth which mimics a theremi but plays dozens of instruments including different types of pianos, guitars, percussion instruments and a variety of uncommon instruments and non musical sounds.</p>
+           <img src="https://github.com/davidnsousa/HC-SR04-midi-instrument/raw/main/scheme0.png" alt="scheme" width="500" />
+           <p>2023</p>
+           <h2 id="rpi-pico-alarm"><a href="https://github.com/davidnsousa/rpipico-alarm-clock">Raspberry Pi pico Alarm Clock</a></h2>
+           <p><img src="https://img.shields.io/badge/Language-MicroPython-yellow.svg" alt="Generic badge" /></a></p>
+           <p>Time, date and alarm clock based on Raspberry Pi Pico.</p>
+           <img src="https://github.com/davidnsousa/rpipico-alarm-clock/raw/main/scheme0.png" alt="scheme" width="500" />
+           <p>2023</p>
+           <h2 id="rpi-weather"><a href="https://github.com/davidnsousa/rpi-weather-webserver">Raspberry Pi Weather Station Webserver</a></h2>
+           <p><img src="https://img.shields.io/badge/Language-MicroPython-yellow.svg" alt="Generic badge" /></a></p>
+           <p>A minimal rpi weather station that measures the atmospheric temperature and humidity using a rpi 3 microcomputer and a DHT11 module. A flask webserver is implemented to display data locally.</p>
+           <img src="https://github.com/davidnsousa/rpi-weather-webserver/raw/main/scheme0.png" alt="scheme" width="300" /><img src="https://github.com/davidnsousa/rpi-weather-webserver/raw/main/webserver.png" alt="scheme" width="200" />
+           <p>2023</p>
+           <h2 id="arduino-weather"><a href="https://github.com/davidnsousa/arduino-weather-dht11">Arduino Weather Station</a></h2>
+           <p><img src="https://img.shields.io/badge/Language-C++-ff69b4.svg" alt="Generic badge" /></a></p>
+           <p>A minimal arduino weather station that measures the atmospheric temperature and humidity using an arduino nano every microcontroller, a DHT11 module and an LCD 16x2 I2C display.</p>
+           <img src="https://github.com/davidnsousa/arduino-weather-dht11/raw/main/scheme0.png" alt="scheme" width="500" />
+           <p>2023</p>
+           </div>
+         </div>
+       </div>
+     </main>
+     <div id="menu-button">
+       <div class="innertube">
+         <a onclick="w3_open()" style="color:#111; text-decoration: none;">&rarr;</a>
+       </div>
+     </div>
+     <nav id="nav">
+       <div class="innertube">
+         <div id="nav-top">
+           <center><img src="/files/public/site/hiking.png" width="180"/></center>
+
+         </div>
+         <a onclick="w3_close()" style="text-decoration: none;">&larr;</a>
+         <br>
+         <ul>
+             <li><a href="#" class="toggle-link" data-target="Presentation">Presentation</a></li>
+             <li><a href="#" class="toggle-link" data-target="Projects">Projects</a></li>
+             <li><a href="#" class="toggle-link" data-target="Academic Output">Academic Output</a></li>
+             <li><a href="#" class="toggle-link" data-target="Software">Software</a></li>
+             <li><a href="#" class="toggle-link" data-target="Electronics">Electronics</a></li>
+         </ul>
+         <div id="nav-bottom">
+           <a href="https://t.me/davidnsousa"><i class="fa fa-telegram" style="color:#afafaf;font-size:x-large;"></i></a>
+           <a href="mailto:davidnnas@pm.me"><i class="fa fa-envelope" style="color:#afafaf;font-size:x-large;"></i></a>
+           <a href="https://www.linkedin.com/in/davidnsousa/"><i class="fa-brands fa-linkedin" style="color:#afafaf;font-size:x-large;"></i></a>
+           <a href="https://github.com/davidnsousa"><i class="fa fa-github" style="color:#afafaf;font-size:x-large;"></i></a>
+           <a href="https://www.researchgate.net/profile/David-Sousa-18"><i class="fa-brands fa-researchgate" style="color:#afafaf;font-size:x-large;"></i></a>
+           <a href="https://scholar.google.com/citations?user=6Xg2GlsAAAAJ"><i class="fa-solid fa-graduation-cap" style="color:#afafaf;font-size:x-large;"></i></a>
+         </div>
+       </div>
+     </nav>
+   </div>
+   <footer id="footer">
+     <div class="innertube">
+     </div>
+   </footer>
+ </body>
 </html>
