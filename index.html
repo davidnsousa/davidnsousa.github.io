@@ -12,6 +12,7 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         .centered-container {
+            margin-top: 100px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -21,6 +22,14 @@
         }
         h1, h2, h3, h4, h5, h6 {
             color: #8b7555; /* Header color */
+        }
+        h3, h4, h5 {
+            margin-top: 40px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            text-align: center;
         }
         a {
             color: #b59569; /* Link color */
@@ -45,6 +54,41 @@
         }
         a:hover {
             color: #7a3b1b; /* Link hover color */
+        }
+        @media (max-width: 600px) {
+            .centered-container {
+                padding: 16px;
+            }
+            img {
+                width: 120px;
+                max-width: 100%;
+                height: auto;
+            }
+            h1 {
+                font-size: 1.6em;
+            }
+            h2 {
+                font-size: 1.1em;
+            }
+            h3, h4, h5 {
+                margin-top: 24px;
+                margin-bottom: 24px;
+                font-size: 1em;
+            }
+            div[style*="padding-top: 30px"] a {
+                display: block;
+                margin: 12px 0;
+            }
+            #edu-section, #ict-section {
+                margin-bottom: 30px;
+                font-size: 0.98em;
+            }
+            div[style*="margin-bottom: 50px"] a {
+                margin: 0 8px;
+            }
+            body, html {
+                font-size: 16px;
+            }
         }
     </style>
     <script>
@@ -71,37 +115,45 @@
             <a href="#" onclick="showSection('edu')" style="margin-right: 32px;">Educational Projects</a>
             <a href="#" onclick="showSection('ict')">ICT projects</a>
         </div>
-        <div id="edu-section" style="display:none; margin-bottom: 50px;">
-            <p><a href="http://changemakers.nuclio.org/">Change Makers</a> - Maker spaces for creativity and innovation (<b>2021–ongoing</b>)</p>
+        <div id="edu-section" style="display:none; margin-bottom: 50px; text-align: left;">
+            <h3>Educational Projects</h3>
+            <p><a href="http://changemakers.nuclio.org/">Change Makers</a> - Maker space for innovation and community support (<b>2021–ongoing</b>)</p>
             <p><a href="https://soundscapes.nuclio.org/">SoundScapes</a> - Sonification for inclusive STEAM education (<b>2023–2026</b>)</p>
             <p><a href="https://nuclio.org/en/project/earn-en/">EARN</a> - Service-learning linking schools and communities (<b>2023–2025</b>)</p>
             <p><a href="https://learningfromtheextremes.eu/">Learning from the Extremes</a> - Digital innovation for rural schools (<b>2022–2024</b>)</p>
             <p><a href="https://clicpolit.eu/">CliC-PoLiT</a> - Climate change and sustainability through STEAM (<b>2021–2024</b>)</p>
-            <p><a href="https://dome.nuclio.org/">D.O.M.E.</a> - Low-cost school planetariums and teacher training (<b>2022, 2024</b>)</p>
-            <p><a href="https://nuclio.org/en/project/leds-en/">LeDS</a> - Arts-integrated STEAM skills and teacher training (<b>2021–2023</b>)</p>
-            <p><a href="https://assess.nuclio.org/">ASSESS</a> - Framework for assessment fostering growth (<b>2020–2023</b>)</p>
+            <p><a href="https://dome.nuclio.org/">D.O.M.E.</a> - Low-cost school planetariums and Astronomy teaching (<b>2022, 2024</b>)</p>
+            <p><a href="https://nuclio.org/en/project/leds-en/">LeDS</a> - STEAM innovation through Arts and digital technologies (<b>2021–2023</b>)</p>
+            <p><a href="https://assess.nuclio.org/">ASSESS</a> - Innovative dialogical assessment of competencies (<b>2020–2023</b>)</p>
         </div>
-        <div id="ict-section" style="display:none; margin-bottom: 30px;">
-            <p><a href="https://makecode.microbit.org/pkg/davidnsousa/sonification">Sonification library for Makecode  </a> - Map values to music scales (TypeScript, <b>2024</b>)</p>
-            <p><a href="https://github.com/davidnsousa/nodelv">nodelv</a> - Node.js sensor data logger (Node.js, <b>2024</b>)</p>
-            <p><a href="https://github.com/davidnsousa/darchbox">darchbox</a> - Arch Linux setup script (Shell, <b>2023</b>)</p>
+        <div id="ict-section" style="display:none; margin-bottom: 30px; text-align: left;">
+            <h3>Educational tools</h3>
+            <p><a href="https://makecode.microbit.org/pkg/davidnsousa/sonification">Sonification library for Makecode</a> - Map numerical data to music scales (TypeScript, <b>2024</b>)</p>
+            <h3>Electronics</h3>
             <p><a href="https://github.com/davidnsousa/attiny-pedometer/">Attiny85 pedometer</a> - Step counter with OLED display (C++, <b>2023</b>)</p>
             <p><a href="https://github.com/davidnsousa/HC-SR04-midi-instrument">HC-SR04 midi instrument</a> - Ultrasonic sensor as MIDI instrument with Raspberry Pi (Python, <b>2023</b>)</p>
             <p><a href="https://github.com/davidnsousa/rpipico-alarm-clock">Raspberry Pi pico Alarm Clock</a> - Time, date, and alarm clock (MicroPython, <b>2023</b>)</p>
             <p><a href="https://github.com/davidnsousa/rpi-weather-webserver">Raspberry Pi Weather Station Webserver</a> - Weather station with Flask server (MicroPython, <b>2023</b>)</p>
             <p><a href="https://github.com/davidnsousa/arduino-weather-dht11">Arduino Weather Station</a> - Arduino with DHT11 and LCD display (C++, <b>2023</b>)</p>
-            <p><a href="https://github.com/davidnsousa/pyBART">pyBART</a> - BART risk task (Python, <b>2019</b>)</p>
-            <p><a href="https://pypi.org/project/miniabm/0.0.1/">miniabm</a> - Minimal agent-based modeling tool (Python, <b>2019</b>)</p>
-            <p><a href="https://github.com/davidnsousa/SDGen">SDGen</a> - Superdonor generator for research on emotional body odors (Python, <b>2019</b>)</p>
-            <p><a href="https://github.com/davidnsousa/TMTGen">TMTGen</a> - Automatic Trail Making Test generator (Python, <b>2019</b>)</p>
+            <h3>Statistics & Data Analysis</h3>
             <p><a href="https://github.com/davidnsousa/bor">bor</a> - R package for social interaction data (R, <b>2018</b>)</p>
             <p><a href="https://github.com/joaordaniel/qsort">qsort</a> - R package for scoring Q-sort data (R, <b>2018</b>)</p>
+            <h3>Research in Psychology</h3>
+            <p><a href="https://github.com/davidnsousa/pyBART">pyBART</a> - BART risk task (Python, <b>2019</b>)</p>
+            <p><a href="https://github.com/davidnsousa/TMTGen">TMTGen</a> - Automatic Trail Making Test generator (Python, <b>2019</b>)</p>
+            <p><a href="https://github.com/davidnsousa/SDGen">SDGen</a> - Superdonor generator for chemosignal research (Python, <b>2019</b>)</p>
+            <h3>Agent-Based & Simulation</h3>
+            <p><a href="https://pypi.org/project/miniabm/0.0.1/">miniabm</a> - Minimal agent-based modeling tool (Python, <b>2019</b>)</p>
             <p><a href="https://github.com/davidnsousa/mcsd">MCSD</a> - MATLAB tool for diffusion simulation (MATLAB/Octave, <b>2018</b>)</p>
             <p><a href="https://github.com/davidnsousa/CUEPCA">CUEPCA</a> - Cooperation under pressure model (NetLogo, <b>2017</b>)</p>
             <p><a href="http://modelingcommons.org/browse/one_model/6478#model_tabs_browse_info">Emergence of despotic and egalitarian societies</a> - Model of dominance and behavior (NetLogo, <b>2017</b>)</p>
             <p><a href="http://modelingcommons.org/browse/one_model/6476#model_tabs_browse_info">Spatial PD</a> - Prisoner’s Dilemma in spatial populations (NetLogo, <b>2016</b>)</p>
             <p><a href="http://modelingcommons.org/browse/one_model/6477#model_tabs_browse_info">Extinction and evolution</a> - Mass extinction and diversity model (NetLogo, <b>2016</b>)</p>
             <p><a href="http://modelingcommons.org/browse/one_model/6475#model_tabs_browse_info">Molecular diffusion</a> - Model of molecular diffusion (NetLogo, <b>2016</b>)</p>
+            <h3>Linux</h3>
+            <p><a href="https://github.com/davidnsousa/darchbox">darchbox</a> - Arch Linux setup script (Shell, <b>2023</b>)</p>
+            <h3>Webserver & Data Logging</h3>
+            <p><a href="https://github.com/davidnsousa/nodelv">nodelv</a> - Node.js data logger (Node.js, <b>2024</b>)</p>
         </div>
         <div style="margin-bottom: 50px;">
             <a href="https://t.me/davidnsousa"><i class="fa fa-telegram" style="font-size:x-large;"></i></a>
